@@ -102,23 +102,23 @@ if __name__ == "__main__":
         st.divider()
 
         # Credits to joaomdmoura/CrewAI for the code: https://github.com/joaomdmoura/crewAI
-        st.sidebar.markdown(
-        """
-        Credits to [**@joaomdmoura**](https://twitter.com/joaomdmoura)
-        for creating **crewAI** 🚀
-        """,
-            unsafe_allow_html=True
-        )
+        # st.sidebar.markdown(
+        # """
+        # Credits to [**@joaomdmoura**](https://twitter.com/joaomdmoura)
+        # for creating **crewAI** 🚀
+        # """,
+        #     unsafe_allow_html=True
+        # )
 
-        st.sidebar.info("Click the logo to visit GitHub repo", icon="👇")
-        st.sidebar.markdown(
-            """
-        <a href="https://github.com/joaomdmoura/crewAI" target="_blank">
-            <img src="https://raw.githubusercontent.com/joaomdmoura/crewAI/main/docs/crewai_logo.png" alt="CrewAI Logo" style="width:100px;"/>
-        </a>
-        """,
-            unsafe_allow_html=True
-        )
+        # st.sidebar.info("Click the logo to visit GitHub repo", icon="👇")
+        # st.sidebar.markdown(
+        #     """
+        # <a href="https://github.com/joaomdmoura/crewAI" target="_blank">
+        #     <img src="https://raw.githubusercontent.com/joaomdmoura/crewAI/main/docs/crewai_logo.png" alt="CrewAI Logo" style="width:100px;"/>
+        # </a>
+        # """,
+        #     unsafe_allow_html=True
+        # )
 
 
 if submitted:

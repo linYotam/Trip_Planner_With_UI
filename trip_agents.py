@@ -3,7 +3,8 @@ import re
 import streamlit as st
 from langchain_community.llms import OpenAI
 
-from tools.browser_tools import BrowserTools
+# from tools.browser_tools import BrowserTools
+from tools.browser_tools_gpt import BrowserTools
 from tools.calculator_tools import CalculatorTools
 from tools.search_tools import SearchTools
 

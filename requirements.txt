@@ -4,3 +4,4 @@ openai
 unstructured
 pyowm
 tools
+langchain-community
