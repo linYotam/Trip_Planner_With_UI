@@ -1,0 +1,13 @@
+# First, In terminal:
+# conda create -n Trip_Planner_With_UI python
+# conda activate Trip_Planner_With_UI
+# Choose python with Trip_Planner_With_UI as Interpreter
+# conda install pip
+# pip install -r requirements.txt     
+crewai
+streamlit 
+openai
+unstructured
+pyowm
+tools
+langchain-community
